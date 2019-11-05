@@ -1,0 +1,107 @@
+html, body {
+    background: #7430c2 !important;
+}
+
+/* removes/hides the top header from the page */
+.gs-navbar, .gs-divider {
+    display: none;
+}
+
+/* removes the border around the forum content */
+.punwrap {
+    padding: 0 !important;
+    background-color: transparent !important;
+}
+
+/* fixes labels within fieldsets and thread names from breaking a new line */
+.pun label, .pun .tcr {
+    white-space: nowrap;
+}
+
+.pun h2 {
+    background: #353535 !important;
+    border-color: #353535 !important;
+    border-radius: 0px !important;
+    padding: 10px !important;
+}
+
+.pun .box {
+    background: #252525 !important;
+    border-color: #353535 !important;
+}
+
+/* fixes the weird-looking blank space on some posts */
+.blockpost > .box {
+    background: #383838 !important;
+}
+
+.pun .block .inbox, .pun .blockmenu .inbox {
+    padding: 10px 12px !important;
+}
+
+#brdmenu {
+    background-color: #7430c2 !important;
+    color: #d4d4d4 !important;
+}
+
+.pun .inbox thead .tc2, .pun .inbox thead .tc3, .pun .inbox thead .tcl, .pun .inbox thead .tcr {
+    border-bottom: 2px solid #95b806;
+    background: #7430c2;
+    color: #aaa;
+    padding: 10px;
+}
+
+#brdfooter #modcontrols, .pun td {
+    border-color: #7430c2;
+}
+
+.pun .icon {
+    border-color: #7430c2;
+}
+
+.pun .rowodd, .pun .roweven {
+    background: #252525;
+}
+
+.pun .rowodd:hover, .pun .roweven:hover {
+    background: #7430c2;
+}
+
+/* SHOUTBOX */
+#shout > div:nth-of-type(1) {
+    height: 213px !important;
+}
+
+#shout input {
+    visibility: visible;
+    background: #252525;
+    padding: 15px 10px 15px 10px;
+    border-color: #7430c2;
+    border-width: 5px;
+}
+
+#shout select {
+    height: 100%;
+    background: #252525;
+    border-color: #7430c2;
+    border-width: 5px;
+}
+
+#shout label {
+    padding: 10px;
+    font-size: 1.1em;
+}
+
+#shout .rowEven, #shout .rowOdd {
+    background-color: #252525 !important;
+    padding: 5px 5px 5px 5px !important;
+}
+
+#shout div::-webkit-scrollbar-thumb {
+    background-color: #454545;
+}
+
+#shout div::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #252525;
+}
