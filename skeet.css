@@ -1,5 +1,5 @@
 html, body {
-    background: #7430c2 !important;
+    background: #1b1520 !important;
 }
 
 /* removes/hides the top header from the page */
@@ -19,15 +19,15 @@ html, body {
 }
 
 .pun h2 {
-    background: #353535 !important;
-    border-color: #353535 !important;
+    background: #3b3540 !important;
+    border-color: #3b3540 !important;
     border-radius: 0px !important;
     padding: 10px !important;
 }
 
 .pun .box {
-    background: #252525 !important;
-    border-color: #353535 !important;
+    background: #2c2530 !important;
+    border-color: #3b3540 !important;
 }
 
 /* fixes the weird-looking blank space on some posts */
@@ -40,31 +40,31 @@ html, body {
 }
 
 #brdmenu {
-    background-color: #7430c2 !important;
+    background-color: #3b3540 !important;
     color: #d4d4d4 !important;
 }
 
 .pun .inbox thead .tc2, .pun .inbox thead .tc3, .pun .inbox thead .tcl, .pun .inbox thead .tcr {
     border-bottom: 2px solid #95b806;
-    background: #7430c2;
+    background: #3b3540;
     color: #aaa;
     padding: 10px;
 }
 
 #brdfooter #modcontrols, .pun td {
-    border-color: #7430c2;
+    border-color: #3b3540;
 }
 
 .pun .icon {
-    border-color: #7430c2;
+    border-color: #3b3540;
 }
 
 .pun .rowodd, .pun .roweven {
-    background: #252525;
+    background: #2b2530;
 }
 
 .pun .rowodd:hover, .pun .roweven:hover {
-    background: #7430c2;
+    background: #3b3540;
 }
 
 /* SHOUTBOX */
@@ -74,16 +74,16 @@ html, body {
 
 #shout input {
     visibility: visible;
-    background: #252525;
+    background: #252530;
     padding: 15px 10px 15px 10px;
-    border-color: #7430c2;
+    border-color: #3b3540;
     border-width: 5px;
 }
 
 #shout select {
     height: 100%;
-    background: #252525;
-    border-color: #7430c2;
+    background: #2b2530;
+    border-color: #3b3540;
     border-width: 5px;
 }
 
@@ -93,15 +93,15 @@ html, body {
 }
 
 #shout .rowEven, #shout .rowOdd {
-    background-color: #252525 !important;
+    background-color: #252530 !important;
     padding: 5px 5px 5px 5px !important;
 }
 
 #shout div::-webkit-scrollbar-thumb {
-    background-color: #454545;
+    background-color: #454550;
 }
 
 #shout div::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-    background-color: #252525;
+    background-color: #252530;
 }
